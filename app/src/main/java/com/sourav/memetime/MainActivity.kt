@@ -34,10 +34,10 @@ class MainActivity : AppCompatActivity() {
         var progressBar = findViewById<View>(R.id.pBar)
         progressBar.visibility = View.VISIBLE
 
-        // Instantiate the RequestQueue.
+// Instantiate the RequestQueue.
         //val queue = Volley.newRequestQueue(this)
-        val url = "https://meme-api.herokuapp.com/gimme"
-
+        val url = "https://meme-api.com/gimme"
+        
         // Request a string response from the provided URL.
         var imageView = findViewById<View>(R.id.MemeImage) as ImageView
         val jsonObjectRequest = JsonObjectRequest(
